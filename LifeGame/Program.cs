@@ -1,15 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Game_Life1.Game;
 
-namespace LifeGame
+namespace Game_Life1
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main()
         {
-        }
+            Console.CursorVisible = false;
+            Application startGame = new Application();
+        } 
     }
 }

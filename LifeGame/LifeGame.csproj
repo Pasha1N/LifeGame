@@ -42,11 +42,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Game\Application.cs" />
+    <Compile Include="Game\Cell.cs" />
+    <Compile Include="Game\Command\CellCondition.cs" />
+    <Compile Include="Game\Command\Down.cs" />
+    <Compile Include="Game\Command\ICommand.cs" />
+    <Compile Include="Game\Command\Left.cs" />
+    <Compile Include="Game\Command\Right.cs" />
+    <Compile Include="Game\Command\Start.cs" />
+    <Compile Include="Game\Command\Up.cs" />
+    <Compile Include="Game\ControlOverWork.cs" />
+    <Compile Include="Game\Cursor.cs" />
+    <Compile Include="Game\Field.cs" />
+    <Compile Include="Game\Generation.cs" />
+    <Compile Include="Game\InstallTheCageWithButton.cs" />
+    <Compile Include="Game\LogicTheGame.cs" />
+    <Compile Include="Game\Point.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
