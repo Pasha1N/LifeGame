@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Game_Life1.Game.Command
+namespace GameLife.Game.Command
 {
     internal class Up : ICommand 
     {

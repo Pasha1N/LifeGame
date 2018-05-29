@@ -1,4 +1,4 @@
-﻿namespace Game_Life1.Game
+﻿namespace GameLife.Game
 {
     internal class Application
     {

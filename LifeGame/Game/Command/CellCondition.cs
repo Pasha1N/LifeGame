@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Game_Life1.Game.Command
+namespace GameLife.Game.Command
 {
     internal class CellCondition : ICommand 
     {
@@ -20,7 +20,7 @@ namespace Game_Life1.Game.Command
             if (key.Key == ConsoleKey.Enter)
             {
                 bool @break = false;
-                bool Is = false;
+                bool @is = false;
                 int xOfTheCurrentCell = 0;
                 int yOfTheCurrentCell = 0;
 
@@ -34,7 +34,7 @@ namespace Game_Life1.Game.Command
                             {
                                 if (cells[j, i].IsAlive)
                                 {
-                                    Is = true;
+                                    @is = true;
                                     @break = true;
                                 }
                             }
@@ -55,7 +55,7 @@ namespace Game_Life1.Game.Command
                     }
                 }
 
-                if (Is)
+                if (@is)
                 {
                     cells[yOfTheCurrentCell - field.StartOfTheSquareY, xOfTheCurrentCell - field.StartOfTheSquareX].Kill();
                 }

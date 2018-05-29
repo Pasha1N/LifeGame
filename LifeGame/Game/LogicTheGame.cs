@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Threading;
 
-namespace Game_Life1.Game
+namespace GameLife.Game
 {
     internal class LogicTheGame
     {

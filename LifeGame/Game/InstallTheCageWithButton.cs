@@ -1,8 +1,8 @@
-﻿using Game_Life1.Game.Command;
+﻿using GameLife.Game.Command;
 using System;
 using System.Collections.Generic;
 
-namespace Game_Life1.Game
+namespace GameLife.Game
 {
     internal class InstallTheCageWithButton
     {
