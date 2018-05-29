@@ -28,11 +28,13 @@ namespace Game_Life1.Game
         {
             get
             {
+                bool alive = false;
+
                 if (cell)
                 {
-                    return true;
+                    alive= true;
                 }
-                return false;
+                return alive;
             }
         }
 
