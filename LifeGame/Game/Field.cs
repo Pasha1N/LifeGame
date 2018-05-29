@@ -10,7 +10,7 @@ namespace Game_Life1.Game
         private int indent = 1;
         private int startOfTheSquareY = 2;
         private int startOfTheSquareX = 1;
-        private int width; 
+        private int width;
 
         public Field()
         {
@@ -27,6 +27,21 @@ namespace Game_Life1.Game
             }
         }
 
+        public Cell[,] Area
+        {
+            get { return cells; }
+        }
+
+        public int Height
+        {
+            get { return height; }
+        }
+
+        public int Indent
+        {
+            get { return indent; }
+        }
+
         public int StartOfTheSquareY
         {
             get { return startOfTheSquareY; }
@@ -40,21 +55,6 @@ namespace Game_Life1.Game
         public int Width
         {
             get { return width; }
-        }
-
-        public int Indent
-        {
-            get { return indent; }
-        }
-
-        public int Height
-        {
-            get { return height; }
-        }
-
-        public Cell[,] Area
-        {
-            get { return cells; }
         }
 
         public void PrintOutTheFrame()
