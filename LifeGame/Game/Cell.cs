@@ -24,13 +24,16 @@ namespace Game_Life1.Game
             get { return y; }
         }
 
-        public bool IsAlive()
+        public bool IsAlive
         {
-            if (cell)
+            get
             {
-                return true;
+                if (cell)
+                {
+                    return true;
+                }
+                return false;
             }
-            return false;
         }
 
         public void Kill()

@@ -39,7 +39,7 @@ namespace Game_Life1.Game
                             {
                                 if (height >= 0 && width >= 0 && height < field.Height && width < field.Width)
                                 {
-                                    if (cells[height, width].IsAlive())
+                                    if (cells[height, width].IsAlive)
                                     {
                                         numberLiving++;
                                     }
@@ -51,7 +51,7 @@ namespace Game_Life1.Game
                             }
                         }
 
-                        if (cells[row, column].IsAlive())
+                        if (cells[row, column].IsAlive)
                         {
                             if (numberLiving < 3 || numberLiving > 4)
                             {
@@ -101,7 +101,7 @@ namespace Game_Life1.Game
                         {
                             for (int j = 0; j < columns; j++)
                             {
-                                if (area[i, j].IsAlive() == cells[i, j].IsAlive())
+                                if (area[i, j].IsAlive == cells[i, j].IsAlive)
                                 {
                                     count++;
                                 }
@@ -123,7 +123,7 @@ namespace Game_Life1.Game
                     for (int j = 0; j < columns; j++)
                     {
                         copyOfCells[i, j] = new Cell(i, j);
-                        if (cells[i, j].IsAlive())
+                        if (cells[i, j].IsAlive)
                         {
                             copyOfCells[i, j].Revitalize();
                         }

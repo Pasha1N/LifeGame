@@ -32,7 +32,7 @@ namespace Game_Life1.Game.Command
                         {
                             if (cells[j, i].X == cursor.X && cells[j, i].Y == cursor.Y)
                             {
-                                if (cells[j, i].IsAlive())
+                                if (cells[j, i].IsAlive)
                                 {
                                     Is = true;
                                     @break = true;
