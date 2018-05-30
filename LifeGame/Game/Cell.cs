@@ -7,7 +7,7 @@ namespace GameLife.Game
         private bool cell = false;
         private int x;
         private int y;
-         
+
         public Cell(int x, int y)
         {
             this.x = x;
@@ -32,7 +32,7 @@ namespace GameLife.Game
 
                 if (cell)
                 {
-                    alive= true;
+                    alive = true;
                 }
                 return alive;
             }
