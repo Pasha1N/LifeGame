@@ -1,7 +1,7 @@
 ﻿using System;
-using GameLife.Game;
+using LifeGame.Game;
 
-namespace GameLife
+namespace LifeGame
 {
     internal class Program
     {
